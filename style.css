@@ -1,4 +1,7 @@
 /* Reseteo general*/
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -38,7 +41,7 @@ body{ background-color: white;}
         text-decoration: none;
     }
 
-    /* Aqui inicia la secion de servicios */
+    /* Aqui inicia la sesion de servicios */
 
     .Servicios{
         padding: 10rem;
@@ -74,7 +77,7 @@ body{ background-color: white;}
         padding-top: 5rem;
     }
 
-    /* Aqui inicia la secion de Habilidades */
+    /* Aqui inicia la sesion de Habilidades */
 
     .Habilidades{
         padding: 10rem;
