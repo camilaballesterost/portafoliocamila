@@ -19,6 +19,7 @@ body{ background-color: white;}
         position: fixed;
         left: 0;
         right: 0;
+        z-index: 999;
     }
 
     .nav-bar{
@@ -137,4 +138,17 @@ body{ background-color: white;}
 
     .parrafo-portafolio{
         margin-bottom: 2rem;
+    }
+
+    /* Aqui inicia la secion de contacto */
+
+
+    .form-contacto{
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        box-shadow: 1px 1px 10px 1px #ccc;
+        margin-top: 2rem;
+
     }
